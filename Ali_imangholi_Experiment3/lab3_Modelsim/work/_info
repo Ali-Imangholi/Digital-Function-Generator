@@ -1,0 +1,130 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vAND
+Z0 !s110 1607896162
+!i10b 1
+!s100 J;22AhQD6DIlRlA>F_V0^2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IhofXQ@CTPQSbh_ZMQ`S=e3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/im/Desktop/lab3/lab3_Modelsim
+w1607865191
+8C:\Users\im\Desktop\lab3\lab3_Modelsim\and.v
+FC:\Users\im\Desktop\lab3\lab3_Modelsim\and.v
+!i122 24
+Z4 L0 2 3
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1607896162.000000
+!s107 C:\Users\im\Desktop\lab3\lab3_Modelsim\and.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\im\Desktop\lab3\lab3_Modelsim\and.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+n@a@n@d
+vmemoryCounter
+R0
+!i10b 1
+!s100 bn:TldUO9i[mNano>]MPe2
+R1
+IjIooJz=aOe4=:^JZd=>X20
+R2
+R3
+w1607896159
+8C:/Users/im/Desktop/lab3/lab3_Modelsim/memoryCounter.v
+FC:/Users/im/Desktop/lab3/lab3_Modelsim/memoryCounter.v
+!i122 25
+L0 2 9
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/im/Desktop/lab3/lab3_Modelsim/memoryCounter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/im/Desktop/lab3/lab3_Modelsim/memoryCounter.v|
+!i113 1
+R7
+R8
+nmemory@counter
+vMUX_8b
+R0
+!i10b 1
+!s100 ?48eY2>o0mheoD^EYH]cg2
+R1
+IA=k^oe_]b>2XCl0V2`lj22
+R2
+R3
+w1607885447
+8C:/Users/im/Desktop/lab3/lab3_Modelsim/MUX_8b.v
+FC:/Users/im/Desktop/lab3/lab3_Modelsim/MUX_8b.v
+!i122 26
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/im/Desktop/lab3/lab3_Modelsim/MUX_8b.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/im/Desktop/lab3/lab3_Modelsim/MUX_8b.v|
+!i113 1
+R7
+R8
+n@m@u@x_8b
+vtb
+R0
+!i10b 1
+!s100 akMT;<0AF;COCV`1gK`=o1
+R1
+Ilcn_U^W3I<]J<<CZe:@;90
+R2
+R3
+w1607884769
+8C:/Users/im/Desktop/lab3/lab3_Modelsim/testBench.v
+FC:/Users/im/Desktop/lab3/lab3_Modelsim/testBench.v
+!i122 27
+L0 2 24
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/im/Desktop/lab3/lab3_Modelsim/testBench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/im/Desktop/lab3/lab3_Modelsim/testBench.v|
+!i113 1
+R7
+R8
+vwaveFormGenerator
+R0
+!i10b 1
+!s100 :cW`k3[bd?DTcnM1QdCnH3
+R1
+IHi<lcHXHEJY>:5R8V8Tgb3
+R2
+R3
+w1607888408
+8C:/Users/im/Desktop/lab3/lab3_Modelsim/waveFormeGenerator.v
+FC:/Users/im/Desktop/lab3/lab3_Modelsim/waveFormeGenerator.v
+!i122 28
+L0 3 102
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/im/Desktop/lab3/lab3_Modelsim/waveFormeGenerator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/im/Desktop/lab3/lab3_Modelsim/waveFormeGenerator.v|
+!i113 1
+R7
+R8
+nwave@form@generator

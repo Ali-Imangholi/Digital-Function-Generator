@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="waveForm_Generator">
+		<CBX_INST_ENTRY INSTANCE_NAME="|waveForm_Generator|ROM:inst2|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_3l91.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

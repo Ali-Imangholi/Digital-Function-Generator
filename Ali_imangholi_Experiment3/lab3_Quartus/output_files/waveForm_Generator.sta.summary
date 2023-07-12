@@ -1,0 +1,221 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 125C Model Setup 'clkOsillator'
+Slack : -18.603
+TNS   : -132.408
+
+Type  : Slow 1200mV 125C Model Setup 'SW[0]'
+Slack : -16.984
+TNS   : -100.900
+
+Type  : Slow 1200mV 125C Model Setup 'init'
+Slack : -13.357
+TNS   : -88.142
+
+Type  : Slow 1200mV 125C Model Setup '7476:inst1|8'
+Slack : -3.893
+TNS   : -122.792
+
+Type  : Slow 1200mV 125C Model Hold 'init'
+Slack : -8.719
+TNS   : -43.523
+
+Type  : Slow 1200mV 125C Model Hold 'SW[0]'
+Slack : -7.433
+TNS   : -28.739
+
+Type  : Slow 1200mV 125C Model Hold 'clkOsillator'
+Slack : -6.163
+TNS   : -26.325
+
+Type  : Slow 1200mV 125C Model Hold '7476:inst1|8'
+Slack : 0.372
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Recovery 'clkOsillator'
+Slack : -18.483
+TNS   : -133.431
+
+Type  : Slow 1200mV 125C Model Recovery 'SW[0]'
+Slack : -16.860
+TNS   : -102.043
+
+Type  : Slow 1200mV 125C Model Recovery 'init'
+Slack : -13.244
+TNS   : -89.285
+
+Type  : Slow 1200mV 125C Model Removal 'SW[0]'
+Slack : -5.369
+TNS   : -16.271
+
+Type  : Slow 1200mV 125C Model Removal 'init'
+Slack : -5.274
+TNS   : -26.524
+
+Type  : Slow 1200mV 125C Model Removal 'clkOsillator'
+Slack : -4.049
+TNS   : -14.967
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'SW[0]'
+Slack : -7.930
+TNS   : -114.615
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'clkOsillator'
+Slack : -3.000
+TNS   : -24.326
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'init'
+Slack : -3.000
+TNS   : -21.074
+
+Type  : Slow 1200mV 125C Model Minimum Pulse Width '7476:inst1|8'
+Slack : -2.799
+TNS   : -120.359
+
+Type  : Slow 1200mV -40C Model Setup 'clkOsillator'
+Slack : -16.239
+TNS   : -114.876
+
+Type  : Slow 1200mV -40C Model Setup 'SW[0]'
+Slack : -14.843
+TNS   : -87.977
+
+Type  : Slow 1200mV -40C Model Setup 'init'
+Slack : -12.052
+TNS   : -79.273
+
+Type  : Slow 1200mV -40C Model Setup '7476:inst1|8'
+Slack : -3.079
+TNS   : -92.339
+
+Type  : Slow 1200mV -40C Model Hold 'init'
+Slack : -7.471
+TNS   : -36.206
+
+Type  : Slow 1200mV -40C Model Hold 'SW[0]'
+Slack : -6.408
+TNS   : -26.243
+
+Type  : Slow 1200mV -40C Model Hold 'clkOsillator'
+Slack : -5.080
+TNS   : -23.421
+
+Type  : Slow 1200mV -40C Model Hold '7476:inst1|8'
+Slack : 0.345
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Recovery 'clkOsillator'
+Slack : -16.142
+TNS   : -115.873
+
+Type  : Slow 1200mV -40C Model Recovery 'SW[0]'
+Slack : -14.756
+TNS   : -89.071
+
+Type  : Slow 1200mV -40C Model Recovery 'init'
+Slack : -11.976
+TNS   : -80.367
+
+Type  : Slow 1200mV -40C Model Removal 'SW[0]'
+Slack : -5.141
+TNS   : -16.412
+
+Type  : Slow 1200mV -40C Model Removal 'init'
+Slack : -4.675
+TNS   : -23.582
+
+Type  : Slow 1200mV -40C Model Removal 'clkOsillator'
+Slack : -3.772
+TNS   : -14.037
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'SW[0]'
+Slack : -6.897
+TNS   : -99.420
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'clkOsillator'
+Slack : -3.000
+TNS   : -22.543
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'init'
+Slack : -3.000
+TNS   : -18.737
+
+Type  : Slow 1200mV -40C Model Minimum Pulse Width '7476:inst1|8'
+Slack : -2.649
+TNS   : -106.081
+
+Type  : Fast 1200mV -40C Model Setup 'clkOsillator'
+Slack : -8.640
+TNS   : -61.859
+
+Type  : Fast 1200mV -40C Model Setup 'SW[0]'
+Slack : -7.259
+TNS   : -42.834
+
+Type  : Fast 1200mV -40C Model Setup 'init'
+Slack : -6.132
+TNS   : -39.688
+
+Type  : Fast 1200mV -40C Model Setup '7476:inst1|8'
+Slack : -1.194
+TNS   : -19.524
+
+Type  : Fast 1200mV -40C Model Hold 'init'
+Slack : -3.988
+TNS   : -21.248
+
+Type  : Fast 1200mV -40C Model Hold 'SW[0]'
+Slack : -3.543
+TNS   : -14.197
+
+Type  : Fast 1200mV -40C Model Hold 'clkOsillator'
+Slack : -3.080
+TNS   : -12.912
+
+Type  : Fast 1200mV -40C Model Hold '7476:inst1|8'
+Slack : 0.149
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Recovery 'clkOsillator'
+Slack : -8.609
+TNS   : -62.604
+
+Type  : Fast 1200mV -40C Model Recovery 'SW[0]'
+Slack : -7.248
+TNS   : -43.548
+
+Type  : Fast 1200mV -40C Model Recovery 'init'
+Slack : -6.150
+TNS   : -40.395
+
+Type  : Fast 1200mV -40C Model Removal 'init'
+Slack : -2.415
+TNS   : -12.162
+
+Type  : Fast 1200mV -40C Model Removal 'SW[0]'
+Slack : -2.390
+TNS   : -7.152
+
+Type  : Fast 1200mV -40C Model Removal 'clkOsillator'
+Slack : -1.940
+TNS   : -7.191
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'SW[0]'
+Slack : -3.823
+TNS   : -53.034
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'clkOsillator'
+Slack : -3.000
+TNS   : -22.487
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'init'
+Slack : -3.000
+TNS   : -15.829
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width '7476:inst1|8'
+Slack : -1.000
+TNS   : -73.000
+
+------------------------------------------------------------

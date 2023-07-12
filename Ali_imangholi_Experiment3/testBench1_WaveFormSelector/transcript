@@ -1,0 +1,709 @@
+# Compile of ringOscillaotr.v was successful.
+# Compile of waveForm_Generator.vo was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of ringOscillaotr.v was successful.
+# Compile of waveForm_Generator.vo was successful.
+# Compile of testBench_1_.v was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of ringOscillaotr.v was successful.
+# Compile of waveForm_Generator.vo was successful.
+# Compile of testBench_1_.v failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+# Compile of ringOscillaotr.v was successful.
+# Compile of waveForm_Generator.vo was successful.
+# Compile of testBench_1_.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.testBench_1_ -L altera_ver -L cycloneive_ver -sdftyp /I2=C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo
+# vsim -gui work.testBench_1_ -L altera_ver -L cycloneive_ver -sdftyp "/I2=C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo" 
+# Start time: 11:41:35 on Dec 14,2020
+# Loading work.testBench_1_
+# Loading work.ringOsillotor
+# Loading work.waveForm_Generator
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo
+# Loading instances from waveForm_Generator_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo
+# Loading timing data from waveForm_Generator_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testBench_1_ File: C:/Users/im/Desktop/lab3/testBench1/testBench_1_.v
+add wave -position insertpoint  \
+sim:/testBench_1_/WAVESELECT \
+sim:/testBench_1_/SW \
+sim:/testBench_1_/RST \
+sim:/testBench_1_/PIN_NAME_1_ \
+sim:/testBench_1_/OUTPUTJKFLIPFLOP \
+sim:/testBench_1_/init \
+sim:/testBench_1_/INIT \
+sim:/testBench_1_/ENB \
+sim:/testBench_1_/CO \
+sim:/testBench_1_/CLKOSILLATOR \
+sim:/testBench_1_/A_B_C_D_INPUT
+run -all
+# Break key hit
+# Break in Module ringOsillotor at C:/Users/im/Desktop/lab3/testBench1/ringOscillaotr.v line 6
+# Compile of ringOscillaotr.v was successful.
+# Compile of waveForm_Generator.vo was successful.
+# Compile of testBench_1_.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testBench_1_
+# Loading work.ringOsillotor
+# Loading work.waveForm_Generator
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo
+# Loading instances from waveForm_Generator_v.sdo
+# Loading timing data from C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo
+# Loading timing data from waveForm_Generator_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testBench_1_ File: C:/Users/im/Desktop/lab3/testBench1/testBench_1_.v
+add wave -position insertpoint  \
+sim:/testBench_1_/WAVESELECT \
+sim:/testBench_1_/SW \
+sim:/testBench_1_/RST \
+sim:/testBench_1_/PIN_NAME_1_ \
+sim:/testBench_1_/OUTPUTJKFLIPFLOP \
+sim:/testBench_1_/INIT \
+sim:/testBench_1_/ENB \
+sim:/testBench_1_/CO \
+sim:/testBench_1_/CLKOSILLATOR \
+sim:/testBench_1_/A_B_C_D_INPUT
+run -all
+# Break key hit
+# Break in Module cycloneive_lcell_comb at $MODEL_TECH/../altera/verilog/src/cycloneive_atoms.v line 4251
+# Error opening C:/Users/im/Desktop/lab3/testBench1/altera/verilog/src/cycloneive_atoms.v
+# Path name 'C:/Users/im/Desktop/lab3/testBench1/altera/verilog/src/cycloneive_atoms.v' doesn't exist.
+# Compile of ringOscillaotr.v was successful.
+# Compile of waveForm_Generator.vo was successful.
+# Compile of testBench_1_.v was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testBench_1_
+# Loading work.ringOsillotor
+# Loading work.waveForm_Generator
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo
+# Loading instances from waveForm_Generator_v.sdo
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (8) for port 'pin_name1'. The port definition is at: C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator.vo(37).
+#    Time: 0 ps  Iteration: 0  Instance: /testBench_1_/I2 File: C:/Users/im/Desktop/lab3/testBench1/testBench_1_.v Line: 19
+# Loading timing data from C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo
+# Loading timing data from waveForm_Generator_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testBench_1_ File: C:/Users/im/Desktop/lab3/testBench1/testBench_1_.v
+add wave -position insertpoint  \
+sim:/testBench_1_/WAVESELECT \
+sim:/testBench_1_/SW \
+sim:/testBench_1_/RST \
+sim:/testBench_1_/PIN_NAME_1_ \
+sim:/testBench_1_/OUTPUTJKFLIPFLOP \
+sim:/testBench_1_/INIT \
+sim:/testBench_1_/ENB \
+sim:/testBench_1_/CO \
+sim:/testBench_1_/CLKOSILLATOR \
+sim:/testBench_1_/A_B_C_D_INPUT
+run -all
+# Break key hit
+# Break in Module cycloneive_lcell_comb at $MODEL_TECH/../altera/verilog/src/cycloneive_atoms.v line 4251
+# Error opening C:/Users/im/Desktop/lab3/testBench1/altera/verilog/src/cycloneive_atoms.v
+# Path name 'C:/Users/im/Desktop/lab3/testBench1/altera/verilog/src/cycloneive_atoms.v' doesn't exist.
+quit -sim
+# End time: 11:54:26 on Dec 14,2020, Elapsed time: 0:12:51
+# Errors: 0, Warnings: 2
+# Compile of ringOscillaotr.v was successful.
+# Compile of testBench_1_.v was successful.
+# Compile of waveForm_Generator.vo was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of ringOscillaotr.v was successful.
+# Compile of testBench_1_.v was successful.
+# Compile of waveForm_Generator.vo was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui -L altera_ver -L cycloneive_ver -sdftyp /I2=C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo work.testBench_1_
+# vsim -gui -L altera_ver -L cycloneive_ver -sdftyp "/I2=C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo" work.testBench_1_ 
+# Start time: 11:58:13 on Dec 14,2020
+# Loading work.testBench_1_
+# Loading work.ringOsillotor
+# Loading work.waveForm_Generator
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo
+# Loading instances from waveForm_Generator_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo
+# Loading timing data from waveForm_Generator_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testBench_1_ File: C:/Users/im/Desktop/lab3/testBench1/testBench_1_.v
+add wave -position insertpoint  \
+sim:/testBench_1_/SW \
+sim:/testBench_1_/RST \
+sim:/testBench_1_/OUTPUTWAVE \
+sim:/testBench_1_/OUTPUTJKFLIPFLOP \
+sim:/testBench_1_/INIT \
+sim:/testBench_1_/ENB \
+sim:/testBench_1_/CO \
+sim:/testBench_1_/CLKOSILLATOR \
+sim:/testBench_1_/A_B_C_D_INPUT
+run -all
+# Break key hit
+# Simulation stop requested.
+# Compile of ringOscillaotr.v was successful.
+# Compile of testBench_1_.v was successful.
+# Compile of waveForm_Generator.vo was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testBench_1_
+# Loading work.ringOsillotor
+# Loading work.waveForm_Generator
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo
+# Loading instances from waveForm_Generator_v.sdo
+# Loading timing data from C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo
+# Loading timing data from waveForm_Generator_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testBench_1_ File: C:/Users/im/Desktop/lab3/testBench1/testBench_1_.v
+add wave -position insertpoint  \
+sim:/testBench_1_/SW \
+sim:/testBench_1_/RST \
+sim:/testBench_1_/OUTPUTWAVE \
+sim:/testBench_1_/OUTPUTJKFLIPFLOP \
+sim:/testBench_1_/INIT \
+sim:/testBench_1_/ENB \
+sim:/testBench_1_/CO \
+sim:/testBench_1_/CLKOSILLATOR \
+sim:/testBench_1_/A_B_C_D_INPUT
+run -all
+# Break key hit
+# Break in Module cycloneive_lcell_comb at $MODEL_TECH/../altera/verilog/src/cycloneive_atoms.v line 4251
+# Error opening C:/Users/im/Desktop/lab3/testBench1/altera/verilog/src/cycloneive_atoms.v
+# Path name 'C:/Users/im/Desktop/lab3/testBench1/altera/verilog/src/cycloneive_atoms.v' doesn't exist.
+restart -f
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo
+# Loading instances from waveForm_Generator_v.sdo
+# Loading timing data from C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo
+# Loading timing data from waveForm_Generator_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testBench_1_ File: C:/Users/im/Desktop/lab3/testBench1/testBench_1_.v
+quit -sim
+# End time: 12:12:26 on Dec 14,2020, Elapsed time: 0:14:13
+# Errors: 0, Warnings: 1
+# Compile of ringOscillaotr.v was successful.
+# Compile of testBench_1_.v was successful.
+# Compile of waveForm_Generator.vo was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of ringOscillaotr.v was successful.
+# Compile of testBench_1_.v was successful.
+# Compile of waveForm_Generator.vo was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui -L altera_ver -L cycloneive_ver -sdftyp /I2=C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo work.testBench_1_
+# vsim -gui -L altera_ver -L cycloneive_ver -sdftyp "/I2=C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo" work.testBench_1_ 
+# Start time: 12:19:43 on Dec 14,2020
+# Loading work.testBench_1_
+# Loading work.ringOsillotor
+# Loading work.waveForm_Generator
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo
+# Loading instances from waveForm_Generator_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo
+# Loading timing data from waveForm_Generator_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testBench_1_ File: C:/Users/im/Desktop/lab3/testBench1/testBench_1_.v
+add wave -position insertpoint  \
+sim:/testBench_1_/WAVESELECT \
+sim:/testBench_1_/SW_10_ \
+sim:/testBench_1_/SW_9_ \
+sim:/testBench_1_/SW_8_ \
+sim:/testBench_1_/SW \
+sim:/testBench_1_/RST \
+sim:/testBench_1_/ROMOUTPUT \
+sim:/testBench_1_/OUTPUTWAVE \
+sim:/testBench_1_/OUTPUTJKFLIPFLOP \
+sim:/testBench_1_/MUXSELESCT \
+sim:/testBench_1_/MEMORYCOUNTER \
+sim:/testBench_1_/INIT \
+sim:/testBench_1_/ENB \
+sim:/testBench_1_/CO \
+sim:/testBench_1_/CLKOSILLATOR \
+sim:/testBench_1_/A_B_C_D_INPUT
+run -all
+# Break key hit
+# Simulation stop requested.
+# Compile of ringOscillaotr.v was successful.
+# Compile of testBench_1_.v was successful.
+# Compile of waveForm_Generator.vo was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testBench_1_
+# Loading work.ringOsillotor
+# Loading work.waveForm_Generator
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo
+# Loading instances from waveForm_Generator_v.sdo
+# Loading timing data from C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo
+# Loading timing data from waveForm_Generator_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testBench_1_ File: C:/Users/im/Desktop/lab3/testBench1/testBench_1_.v
+add wave -position insertpoint  \
+sim:/testBench_1_/WAVESELECT \
+sim:/testBench_1_/SW_10_ \
+sim:/testBench_1_/SW_9_ \
+sim:/testBench_1_/SW_8_ \
+sim:/testBench_1_/SW \
+sim:/testBench_1_/RST \
+sim:/testBench_1_/ROMOUTPUT \
+sim:/testBench_1_/OUTPUTWAVE \
+sim:/testBench_1_/OUTPUTJKFLIPFLOP \
+sim:/testBench_1_/MUXSELESCT \
+sim:/testBench_1_/MEMORYCOUNTER \
+sim:/testBench_1_/INIT \
+sim:/testBench_1_/ENB \
+sim:/testBench_1_/CO \
+sim:/testBench_1_/CLKOSILLATOR \
+sim:/testBench_1_/A_B_C_D_INPUT
+run -all
+# Break key hit
+# Break in Module cycloneive_lcell_comb at $MODEL_TECH/../altera/verilog/src/cycloneive_atoms.v line 4251
+# Error opening C:/Users/im/Desktop/lab3/testBench1/altera/verilog/src/cycloneive_atoms.v
+# Path name 'C:/Users/im/Desktop/lab3/testBench1/altera/verilog/src/cycloneive_atoms.v' doesn't exist.
+# WARNING: No extended dataflow license exists
+restart -f
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo
+# Loading instances from waveForm_Generator_v.sdo
+# Loading timing data from C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo
+# Loading timing data from waveForm_Generator_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testBench_1_ File: C:/Users/im/Desktop/lab3/testBench1/testBench_1_.v
+add wave -position insertpoint  \
+sim:/testBench_1_/WAVESELECT \
+sim:/testBench_1_/SW_10_ \
+sim:/testBench_1_/SW_9_ \
+sim:/testBench_1_/SW_8_ \
+sim:/testBench_1_/SW \
+sim:/testBench_1_/RST \
+sim:/testBench_1_/ROMOUTPUT \
+sim:/testBench_1_/OUTPUTWAVE \
+sim:/testBench_1_/OUTPUTJKFLIPFLOP \
+sim:/testBench_1_/MUXSELESCT \
+sim:/testBench_1_/MEMORYCOUNTER \
+sim:/testBench_1_/INIT \
+sim:/testBench_1_/ENB \
+sim:/testBench_1_/CO \
+sim:/testBench_1_/CLKOSILLATOR \
+sim:/testBench_1_/A_B_C_D_INPUT
+run -all
+# Break key hit
+# Simulation stop requested.
+run -all
+# Break key hit
+# Break in Module ringOsillotor at C:/Users/im/Desktop/lab3/testBench1/ringOscillaotr.v line 6
+# Compile of ringOscillaotr.v was successful.
+# Compile of testBench_1_.v was successful.
+# Compile of waveForm_Generator.vo was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testBench_1_
+# Loading work.ringOsillotor
+# Loading work.waveForm_Generator
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo
+# Loading instances from waveForm_Generator_v.sdo
+# Loading timing data from C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo
+# Loading timing data from waveForm_Generator_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testBench_1_ File: C:/Users/im/Desktop/lab3/testBench1/testBench_1_.v
+add wave -position insertpoint  \
+sim:/testBench_1_/WAVESELECT \
+sim:/testBench_1_/SW_10_ \
+sim:/testBench_1_/SW_9_ \
+sim:/testBench_1_/SW_8_ \
+sim:/testBench_1_/SW \
+sim:/testBench_1_/RST \
+sim:/testBench_1_/ROMOUTPUT \
+sim:/testBench_1_/OUTPUTWAVE \
+sim:/testBench_1_/OUTPUTJKFLIPFLOP \
+sim:/testBench_1_/MUXSELESCT \
+sim:/testBench_1_/MEMORYCOUNTER \
+sim:/testBench_1_/INIT \
+sim:/testBench_1_/ENB \
+sim:/testBench_1_/CO \
+sim:/testBench_1_/CLKOSILLATOR \
+sim:/testBench_1_/A_B_C_D_INPUT
+run -all
+# Break key hit
+# Break in Module cycloneive_io_ibuf at $MODEL_TECH/../altera/verilog/src/cycloneive_atoms.v line 6384
+# Error opening C:/Users/im/Desktop/lab3/testBench1/altera/verilog/src/cycloneive_atoms.v
+# Path name 'C:/Users/im/Desktop/lab3/testBench1/altera/verilog/src/cycloneive_atoms.v' doesn't exist.
+quit -sim
+# End time: 12:28:48 on Dec 14,2020, Elapsed time: 0:09:05
+# Errors: 0, Warnings: 1
+# Compile of ringOscillaotr.v was successful.
+# Compile of testBench_1_.v was successful.
+# Compile of waveForm_Generator.vo was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of ringOscillaotr.v was successful.
+# Compile of testBench_1_.v was successful.
+# Compile of waveForm_Generator.vo was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of ringOscillaotr.v was successful.
+# Compile of testBench_1_.v failed with 2 errors.
+# Compile of waveForm_Generator.vo was successful.
+# 3 compiles, 1 failed with 2 errors.
+# Compile of ringOscillaotr.v was successful.
+# Compile of testBench_1_.v failed with 2 errors.
+# Compile of waveForm_Generator.vo was successful.
+# 3 compiles, 1 failed with 2 errors.
+# Compile of ringOscillaotr.v was successful.
+# Compile of testBench_1_.v was successful.
+# Compile of waveForm_Generator.vo was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui -L altera_ver -L cycloneive_ver -sdftyp /I2=C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo work.testBench_1_
+# vsim -gui -L altera_ver -L cycloneive_ver -sdftyp "/I2=C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo" work.testBench_1_ 
+# Start time: 12:34:30 on Dec 14,2020
+# Loading work.testBench_1_
+# Loading work.ringOsillotor
+# Loading work.waveForm_Generator
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo
+# Loading instances from waveForm_Generator_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo
+# Loading timing data from waveForm_Generator_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testBench_1_ File: C:/Users/im/Desktop/lab3/testBench1/testBench_1_.v
+add wave -position insertpoint  \
+sim:/testBench_1_/WAVESELECT \
+sim:/testBench_1_/SW_10_ \
+sim:/testBench_1_/SW_9_ \
+sim:/testBench_1_/SW_8_ \
+sim:/testBench_1_/SW \
+sim:/testBench_1_/RST \
+sim:/testBench_1_/ROMOUTPUT \
+sim:/testBench_1_/OUTPUTWAVE \
+sim:/testBench_1_/OUTPUTJKFLIPFLOP \
+sim:/testBench_1_/MUXSELESCT \
+sim:/testBench_1_/MEMORYCOUNTER \
+sim:/testBench_1_/INIT \
+sim:/testBench_1_/ENB \
+sim:/testBench_1_/CO \
+sim:/testBench_1_/CLKOSILLATOR \
+sim:/testBench_1_/A_B_C_D_INPUT
+run -all
+# Break key hit
+# Break in Module ringOsillotor at C:/Users/im/Desktop/lab3/testBench1/ringOscillaotr.v line 6
+quit -sim
+# End time: 12:36:49 on Dec 14,2020, Elapsed time: 0:02:19
+# Errors: 0, Warnings: 10
+# Compile of ringOscillaotr.v was successful.
+# Compile of testBench_1_.v was successful.
+# Compile of waveForm_Generator.vo was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of ringOscillaotr.v was successful.
+# Compile of testBench_1_.v was successful.
+# Compile of waveForm_Generator.vo was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui -L altera_ver -L cycloneive_ver -sdftyp /I2=C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo work.testBench_1_
+# vsim -gui -L altera_ver -L cycloneive_ver -sdftyp "/I2=C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo" work.testBench_1_ 
+# Start time: 12:40:43 on Dec 14,2020
+# Loading work.testBench_1_
+# Loading work.ringOsillotor
+# Loading work.waveForm_Generator
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo
+# Loading instances from waveForm_Generator_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo
+# Loading timing data from waveForm_Generator_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testBench_1_ File: C:/Users/im/Desktop/lab3/testBench1/testBench_1_.v
+add wave -position insertpoint  \
+sim:/testBench_1_/WAVESELECT \
+sim:/testBench_1_/WAVEFORMEGENERATOROUTPUT \
+sim:/testBench_1_/SW_10_ \
+sim:/testBench_1_/SW_9_ \
+sim:/testBench_1_/SW_8_ \
+sim:/testBench_1_/SW \
+sim:/testBench_1_/RST \
+sim:/testBench_1_/ROMOUTPUT \
+sim:/testBench_1_/OUTPUTWAVE \
+sim:/testBench_1_/OUTPUTJKFLIPFLOP \
+sim:/testBench_1_/MUXSELESCT \
+sim:/testBench_1_/MEMORYCOUNTER \
+sim:/testBench_1_/INIT \
+sim:/testBench_1_/ENB \
+sim:/testBench_1_/CO \
+sim:/testBench_1_/CLKOSILLATOR \
+sim:/testBench_1_/A_B_C_D_INPUT
+run -all
+# Break key hit
+# Break in Module cycloneive_lcell_comb at $MODEL_TECH/../altera/verilog/src/cycloneive_atoms.v line 4251
+# Error opening C:/Users/im/Desktop/lab3/testBench1/altera/verilog/src/cycloneive_atoms.v
+# Path name 'C:/Users/im/Desktop/lab3/testBench1/altera/verilog/src/cycloneive_atoms.v' doesn't exist.
+run -all
+# Break key hit
+# Simulation stop requested.
+add wave -position insertpoint  \
+{sim:/testBench_1_/I2/\inst13|5 /sum_lutc_input} \
+{sim:/testBench_1_/I2/\inst13|5 /lut_mask} \
+{sim:/testBench_1_/I2/\inst13|5 /lpm_type} \
+{sim:/testBench_1_/I2/\inst13|5 /isum_lutc_input} \
+{sim:/testBench_1_/I2/\inst13|5 /dont_touch} \
+{sim:/testBench_1_/I2/\inst13|5 /datad_in} \
+{sim:/testBench_1_/I2/\inst13|5 /datad} \
+{sim:/testBench_1_/I2/\inst13|5 /datac_in} \
+{sim:/testBench_1_/I2/\inst13|5 /datac} \
+{sim:/testBench_1_/I2/\inst13|5 /datab_in} \
+{sim:/testBench_1_/I2/\inst13|5 /datab} \
+{sim:/testBench_1_/I2/\inst13|5 /dataa_in} \
+{sim:/testBench_1_/I2/\inst13|5 /dataa} \
+{sim:/testBench_1_/I2/\inst13|5 /cout_tmp} \
+{sim:/testBench_1_/I2/\inst13|5 /cout} \
+{sim:/testBench_1_/I2/\inst13|5 /combout_tmp} \
+{sim:/testBench_1_/I2/\inst13|5 /combout} \
+{sim:/testBench_1_/I2/\inst13|5 /cin_in} \
+{sim:/testBench_1_/I2/\inst13|5 /cin}
+run -all
+# Break key hit
+# Simulation stop requested.
+add wave -position insertpoint  \
+{sim:/testBench_1_/I2/\inst13|5 /sum_lutc_input} \
+{sim:/testBench_1_/I2/\inst13|5 /lut_mask} \
+{sim:/testBench_1_/I2/\inst13|5 /lpm_type} \
+{sim:/testBench_1_/I2/\inst13|5 /isum_lutc_input} \
+{sim:/testBench_1_/I2/\inst13|5 /dont_touch} \
+{sim:/testBench_1_/I2/\inst13|5 /datad_in} \
+{sim:/testBench_1_/I2/\inst13|5 /datad} \
+{sim:/testBench_1_/I2/\inst13|5 /datac_in} \
+{sim:/testBench_1_/I2/\inst13|5 /datac} \
+{sim:/testBench_1_/I2/\inst13|5 /datab_in} \
+{sim:/testBench_1_/I2/\inst13|5 /datab} \
+{sim:/testBench_1_/I2/\inst13|5 /dataa_in} \
+{sim:/testBench_1_/I2/\inst13|5 /dataa} \
+{sim:/testBench_1_/I2/\inst13|5 /cout_tmp} \
+{sim:/testBench_1_/I2/\inst13|5 /cout} \
+{sim:/testBench_1_/I2/\inst13|5 /combout_tmp} \
+{sim:/testBench_1_/I2/\inst13|5 /combout} \
+{sim:/testBench_1_/I2/\inst13|5 /cin_in} \
+{sim:/testBench_1_/I2/\inst13|5 /cin}
+run -all
+# Break key hit
+# Simulation stop requested.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo
+# Loading instances from waveForm_Generator_v.sdo
+# Loading timing data from C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo
+# Loading timing data from waveForm_Generator_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testBench_1_ File: C:/Users/im/Desktop/lab3/testBench1/testBench_1_.v
+quit -sim
+# End time: 12:55:49 on Dec 14,2020, Elapsed time: 0:15:06
+# Errors: 0, Warnings: 1
+# Compile of ringOscillaotr.v was successful.
+# Compile of testBench_1_.v was successful.
+# Compile of waveForm_Generator.vo was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui -L altera_ver -L cycloneive_ver -sdftyp /I2=C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo work.testBench_1_
+# vsim -gui -L altera_ver -L cycloneive_ver -sdftyp "/I2=C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo" work.testBench_1_ 
+# Start time: 12:57:42 on Dec 14,2020
+# Loading work.testBench_1_
+# Loading work.ringOsillotor
+# Loading work.waveForm_Generator
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo
+# Loading instances from waveForm_Generator_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo
+# Loading timing data from waveForm_Generator_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testBench_1_ File: C:/Users/im/Desktop/lab3/testBench1/testBench_1_.v
+add wave -position insertpoint  \
+sim:/testBench_1_/WAVESELECT \
+sim:/testBench_1_/WAVEFORMEGENERATOROUTPUT \
+sim:/testBench_1_/SW_10_ \
+sim:/testBench_1_/SW_9_ \
+sim:/testBench_1_/SW_8_ \
+sim:/testBench_1_/SW \
+sim:/testBench_1_/RST \
+sim:/testBench_1_/ROMOUTPUT \
+sim:/testBench_1_/OUTPUTWAVE \
+sim:/testBench_1_/OUTPUTJKFLIPFLOP \
+sim:/testBench_1_/MUXSELESCT \
+sim:/testBench_1_/MEMORYCOUNTER \
+sim:/testBench_1_/INIT \
+sim:/testBench_1_/ENB \
+sim:/testBench_1_/CO \
+sim:/testBench_1_/CLKOSILLATOR \
+sim:/testBench_1_/A_B_C_D_INPUT
+run -all
+# Break key hit
+# Break in Module cycloneive_lcell_comb at $MODEL_TECH/../altera/verilog/src/cycloneive_atoms.v line 4251
+# Error opening C:/Users/im/Desktop/lab3/testBench1/altera/verilog/src/cycloneive_atoms.v
+# Path name 'C:/Users/im/Desktop/lab3/testBench1/altera/verilog/src/cycloneive_atoms.v' doesn't exist.
+quit -sim
+# End time: 13:03:02 on Dec 14,2020, Elapsed time: 0:05:20
+# Errors: 0, Warnings: 4
+# Compile of ringOscillaotr.v was successful.
+# Compile of testBench_1_.v was successful.
+# Compile of waveForm_Generator.vo was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui -L altera_ver -L cycloneive_ver -sdftyp /I2=C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo work.testBench_1_
+# vsim -gui -L altera_ver -L cycloneive_ver -sdftyp "/I2=C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo" work.testBench_1_ 
+# Start time: 13:04:22 on Dec 14,2020
+# Loading work.testBench_1_
+# Loading work.ringOsillotor
+# Loading work.waveForm_Generator
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo
+# Loading instances from waveForm_Generator_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo
+# Loading timing data from waveForm_Generator_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testBench_1_ File: C:/Users/im/Desktop/lab3/testBench1/testBench_1_.v
+add wave -position insertpoint  \
+sim:/testBench_1_/WAVESELECT \
+sim:/testBench_1_/WAVEFORMEGENERATOROUTPUT \
+sim:/testBench_1_/SW_10_ \
+sim:/testBench_1_/SW_9_ \
+sim:/testBench_1_/SW_8_ \
+sim:/testBench_1_/SW \
+sim:/testBench_1_/RST \
+sim:/testBench_1_/ROMOUTPUT \
+sim:/testBench_1_/OUTPUTWAVE \
+sim:/testBench_1_/OUTPUTJKFLIPFLOP \
+sim:/testBench_1_/MUXSELESCT \
+sim:/testBench_1_/MEMORYCOUNTER \
+sim:/testBench_1_/INIT \
+sim:/testBench_1_/ENB \
+sim:/testBench_1_/CO \
+sim:/testBench_1_/CLKOSILLATOR \
+sim:/testBench_1_/A_B_C_D_INPUT
+run -all
+# Break key hit
+# Break in Module ringOsillotor at C:/Users/im/Desktop/lab3/testBench1/ringOscillaotr.v line 6
+# Compile of ringOscillaotr.v was successful.
+# Compile of testBench_1_.v was successful.
+# Compile of waveForm_Generator.vo was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testBench_1_
+# Loading work.ringOsillotor
+# Loading work.waveForm_Generator
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo
+# Loading instances from waveForm_Generator_v.sdo
+# Loading timing data from C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator_v.sdo
+# Loading timing data from waveForm_Generator_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /testBench_1_ File: C:/Users/im/Desktop/lab3/testBench1/testBench_1_.v
+add wave -position insertpoint  \
+sim:/testBench_1_/WAVESELECT \
+sim:/testBench_1_/WAVEFORMEGENERATOROUTPUT \
+sim:/testBench_1_/SW_10_ \
+sim:/testBench_1_/SW_9_ \
+sim:/testBench_1_/SW_8_ \
+sim:/testBench_1_/SW \
+sim:/testBench_1_/RST \
+sim:/testBench_1_/ROMOUTPUT \
+sim:/testBench_1_/OUTPUTWAVE \
+sim:/testBench_1_/OUTPUTJKFLIPFLOP \
+sim:/testBench_1_/MUXSELESCT \
+sim:/testBench_1_/MEMORYCOUNTER \
+sim:/testBench_1_/INIT \
+sim:/testBench_1_/ENB \
+sim:/testBench_1_/CO \
+sim:/testBench_1_/CLKOSILLATOR \
+sim:/testBench_1_/A_B_C_D_INPUT
+run -all
+# Break key hit
+# Simulation stop requested.
+quit -sim
+# End time: 13:07:42 on Dec 14,2020, Elapsed time: 0:03:20
+# Errors: 0, Warnings: 2

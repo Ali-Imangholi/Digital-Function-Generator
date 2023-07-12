@@ -1,0 +1,71 @@
+`timescale 1ps/1ps
+module testBench_2_();
+
+
+reg ENB;
+reg INIT;
+reg RST;
+reg [11:0] SW;
+wire CLKOSILLATOR;
+wire OUTPUTJKFLIPFLOP;
+wire CO;
+wire [7:0] OUTPUTWAVE;
+wire MUXSELESCT;
+wire 	SW_10_;
+wire	SW_9_ ;
+wire	SW_8_ ;
+wire	SW_0  ;
+wire	SW_1  ;
+wire	SW_2  ;
+wire	SW_3  ;
+wire	SW_4  ;
+wire	SW_5  ;
+wire	SW_6  ;
+wire	SW_7  ;
+wire [9:0] MEMORYCOUNTER;
+wire [2:0] WAVESELECT;
+wire [7:0] ROMOUTPUT;
+wire [7:0] WAVEFORMEGENERATOROUTPUT;
+
+ringOsillotor #(28000 , 5)I1( ENB , CLKOSILLATOR);
+
+
+waveForm_Generator I2(
+	OUTPUTJKFLIPFLOP,
+        SW,
+	CLKOSILLATOR,
+	INIT,
+	CO,
+	MUXSELESCT,
+        SW_10_,
+	SW_9_,
+	SW_8_,
+	SW_0,
+	SW_1,
+	SW_2,
+	SW_3,
+	SW_4,
+	SW_5,
+	SW_6,
+	SW_7,
+	MEMORYCOUNTER,
+	RST,
+	OUTPUTWAVE,
+	ROMOUTPUT,
+        WAVEFORMEGENERATOROUTPUT,
+	WAVESELECT);
+
+initial begin
+  SW = 12'b000100111000;
+  ENB=1; 
+  RST=0;
+  INIT = 1'b0;                                                                                                                                                 		                 	                 
+  #5000 
+  INIT = 1'b1;         
+  #5000
+  RST=1;
+  #5000
+  RST=0;
+  #9999999;
+end
+endmodule

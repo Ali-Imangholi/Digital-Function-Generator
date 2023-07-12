@@ -1,0 +1,131 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vringOsillotor
+Z0 !s110 1607941997
+!i10b 1
+!s100 @@bWh4LHAae`T=PNmCN2J0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Inl1>EK5iamh]LEYN9;JFO1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/im/Desktop/lab3/testBench2_freqSelector
+Z4 w1607011800
+Z5 8C:/Users/im/Desktop/lab3/testBench2_freqSelector/ringOscillaotr.v
+Z6 FC:/Users/im/Desktop/lab3/testBench2_freqSelector/ringOscillaotr.v
+!i122 45
+L0 2 9
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1607941997.000000
+Z9 !s107 C:/Users/im/Desktop/lab3/testBench2_freqSelector/ringOscillaotr.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/im/Desktop/lab3/testBench2_freqSelector/ringOscillaotr.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+nring@osillotor
+vtbRingOsillotor
+R0
+!i10b 1
+!s100 n0Tz>8Q`29HCcDbVSfNkT1
+R1
+If<7Y^>BXAWb^VdYV]h6N41
+R2
+R3
+R4
+R5
+R6
+!i122 45
+L0 17 9
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+ntb@ring@osillotor
+vtestBench_1_
+!s110 1607939620
+!i10b 1
+!s100 JzFLo07Vo;jB3=>_LZh^z2
+R1
+IUXKKe[=BdJGmb61:MgcH_0
+R2
+R3
+w1607939618
+Z13 8C:/Users/im/Desktop/lab3/testBench2_freqSelector/testBench2_.v
+Z14 FC:/Users/im/Desktop/lab3/testBench2_freqSelector/testBench2_.v
+!i122 2
+L0 2 57
+R7
+r1
+!s85 0
+31
+!s108 1607939620.000000
+Z15 !s107 C:/Users/im/Desktop/lab3/testBench2_freqSelector/testBench2_.v|
+Z16 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/im/Desktop/lab3/testBench2_freqSelector/testBench2_.v|
+!i113 1
+R11
+R12
+ntest@bench_1_
+vtestBench_2_
+R0
+!i10b 1
+!s100 iN7SeJ[[FHg`?:bjEkE=b2
+R1
+Ide>=S0>Jln4VzOU_;oa^L3
+R2
+R3
+w1607941994
+R13
+R14
+!i122 46
+L0 2 70
+R7
+r1
+!s85 0
+31
+R8
+R15
+R16
+!i113 1
+R11
+R12
+ntest@bench_2_
+vwaveForm_Generator
+R0
+!i10b 1
+!s100 ALFT?SI8g>Z>I?i3g1VN13
+R1
+IVnESg2m9`ShPb?^dnB<L20
+R2
+R3
+w1607940273
+8C:/Users/im/Desktop/lab3/testBench2_freqSelector/waveForm_Generator.vo
+FC:/Users/im/Desktop/lab3/testBench2_freqSelector/waveForm_Generator.vo
+!i122 47
+L0 31 5589
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/im/Desktop/lab3/testBench2_freqSelector/waveForm_Generator.vo|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/im/Desktop/lab3/testBench2_freqSelector/waveForm_Generator.vo|
+!i113 1
+R11
+R12
+nwave@form_@generator

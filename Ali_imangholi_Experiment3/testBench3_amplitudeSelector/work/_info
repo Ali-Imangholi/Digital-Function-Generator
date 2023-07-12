@@ -1,0 +1,179 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vamplitudeSelector
+Z0 !s110 1607945261
+!i10b 1
+!s100 l]VezA;?A0SkOf`D@OaO23
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IPbk2kl8bPT3CT]z6DYO[D1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/im/Desktop/lab3/testBench3_amplitudeSelector
+w1607942704
+8C:/Users/im/Desktop/lab3/testBench3_amplitudeSelector/amplitudeSelector.v
+FC:/Users/im/Desktop/lab3/testBench3_amplitudeSelector/amplitudeSelector.v
+!i122 32
+L0 3 6
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1607945261.000000
+!s107 C:/Users/im/Desktop/lab3/testBench3_amplitudeSelector/amplitudeSelector.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/im/Desktop/lab3/testBench3_amplitudeSelector/amplitudeSelector.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+namplitude@selector
+vringOsillotor
+R0
+!i10b 1
+!s100 @@bWh4LHAae`T=PNmCN2J0
+R1
+I]NEAcP1=VE>PF8c5lGE@S0
+R2
+R3
+Z8 w1607011800
+Z9 8C:/Users/im/Desktop/lab3/testBench3_amplitudeSelector/ringOscillaotr.v
+Z10 FC:/Users/im/Desktop/lab3/testBench3_amplitudeSelector/ringOscillaotr.v
+!i122 35
+L0 2 9
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/im/Desktop/lab3/testBench3_amplitudeSelector/ringOscillaotr.v|
+Z11 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/im/Desktop/lab3/testBench3_amplitudeSelector/ringOscillaotr.v|
+!i113 1
+R6
+R7
+nring@osillotor
+vtbRingOsillotor
+R0
+!i10b 1
+!s100 n0Tz>8Q`29HCcDbVSfNkT1
+R1
+In6R8DLN3ZhNi]gh0[EW>B2
+R2
+R3
+R8
+R9
+R10
+!i122 35
+L0 17 9
+R4
+r1
+!s85 0
+31
+R5
+Z12 !s107 C:/Users/im/Desktop/lab3/testBench3_amplitudeSelector/ringOscillaotr.v|
+R11
+!i113 1
+R6
+R7
+ntb@ring@osillotor
+vtestBench_1_
+!s110 1607944298
+!i10b 1
+!s100 UOk5mzSNnNIYBR=kG3BBh0
+R1
+IlOTddZBnfJECWD^g4gBDK2
+R2
+R3
+w1607944297
+Z13 8C:\Users\im\Desktop\lab3\testBench3_amplitudeSelector\testBench_3_.v
+Z14 FC:\Users\im\Desktop\lab3\testBench3_amplitudeSelector\testBench_3_.v
+!i122 5
+L0 2 58
+R4
+r1
+!s85 0
+31
+!s108 1607944298.000000
+Z15 !s107 C:\Users\im\Desktop\lab3\testBench3_amplitudeSelector\testBench_3_.v|
+Z16 !s90 -reportprogress|300|-work|work|-stats=none|C:\Users\im\Desktop\lab3\testBench3_amplitudeSelector\testBench_3_.v|
+!i113 1
+R6
+R7
+ntest@bench_1_
+vtestBench_2_
+!s110 1607944501
+!i10b 1
+!s100 kR?cOg6KJ@<8n[4EiX2I53
+R1
+IU=:>a=_Cg2QOJm3l`]ZFL0
+R2
+R3
+w1607944499
+R13
+R14
+!i122 11
+Z17 L0 2 70
+R4
+r1
+!s85 0
+31
+!s108 1607944501.000000
+R15
+R16
+!i113 1
+R6
+R7
+ntest@bench_2_
+vtestBench_3_
+R0
+!i10b 1
+!s100 gIVR?_Wam3]?CHPXT^UXF1
+R1
+IYWAXeN;Hb21[V09iQ;_FK1
+R2
+R3
+w1607945259
+R13
+R14
+!i122 33
+R17
+R4
+r1
+!s85 0
+31
+R5
+R15
+R16
+!i113 1
+R6
+R7
+ntest@bench_3_
+vwaveForm_Generator
+R0
+!i10b 1
+!s100 1^=5fbYW9j^[A]KLKdzYM3
+R1
+IW=kmb_XTG^5dl20TkelgY3
+R2
+R3
+w1607943936
+8C:/Users/im/Desktop/lab3/testBench3_amplitudeSelector/waveForm_Generator.vo
+FC:/Users/im/Desktop/lab3/testBench3_amplitudeSelector/waveForm_Generator.vo
+!i122 34
+L0 31 5907
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/im/Desktop/lab3/testBench3_amplitudeSelector/waveForm_Generator.vo|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/im/Desktop/lab3/testBench3_amplitudeSelector/waveForm_Generator.vo|
+!i113 1
+R6
+R7
+nwave@form_@generator

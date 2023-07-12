@@ -1,0 +1,107 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/im/Desktop/lab3/lab3_Modelsim
+vringOsillotor
+Z0 !s110 1607938559
+!i10b 1
+!s100 @@bWh4LHAae`T=PNmCN2J0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IXNSn2@bi_Q0Dg6gSkmIXl0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/im/Desktop/lab3/testBench1
+Z4 w1607011800
+Z5 8C:/Users/im/Desktop/lab3/testBench1/ringOscillaotr.v
+Z6 FC:/Users/im/Desktop/lab3/testBench1/ringOscillaotr.v
+!i122 61
+L0 2 9
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1607938559.000000
+Z9 !s107 C:/Users/im/Desktop/lab3/testBench1/ringOscillaotr.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/im/Desktop/lab3/testBench1/ringOscillaotr.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+nring@osillotor
+vtbRingOsillotor
+R0
+!i10b 1
+!s100 n0Tz>8Q`29HCcDbVSfNkT1
+R1
+IVRoIH5m;07L=YIAMC`e4`2
+R2
+R3
+R4
+R5
+R6
+!i122 61
+L0 17 9
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+ntb@ring@osillotor
+vtestBench_1_
+R0
+!i10b 1
+!s100 UOk5mzSNnNIYBR=kG3BBh0
+R1
+IDeJ@]`B97>K@YoPLfZiol0
+R2
+R3
+w1607938557
+8C:/Users/im/Desktop/lab3/testBench1/testBench_1_.v
+FC:/Users/im/Desktop/lab3/testBench1/testBench_1_.v
+!i122 62
+L0 2 58
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/im/Desktop/lab3/testBench1/testBench_1_.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/im/Desktop/lab3/testBench1/testBench_1_.v|
+!i113 1
+R11
+R12
+ntest@bench_1_
+vwaveForm_Generator
+R0
+!i10b 1
+!s100 k2I8kEHh8EIS2:=JGz=Ji0
+R1
+I2@`<_XWFUURBbAnOjm0:z0
+R2
+R3
+w1607938370
+8C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator.vo
+FC:/Users/im/Desktop/lab3/testBench1/waveForm_Generator.vo
+!i122 63
+L0 31 5571
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator.vo|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/im/Desktop/lab3/testBench1/waveForm_Generator.vo|
+!i113 1
+R11
+R12
+nwave@form_@generator

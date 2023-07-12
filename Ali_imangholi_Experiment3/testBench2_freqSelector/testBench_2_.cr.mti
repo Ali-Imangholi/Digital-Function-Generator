@@ -1,0 +1,23 @@
+C:/Users/im/Desktop/lab3/testBench2_freqSelector/testBench2_.v {1 {vlog -work work -stats=none C:/Users/im/Desktop/lab3/testBench2_freqSelector/testBench2_.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testBench_2_
+
+Top level modules:
+	testBench_2_
+
+} {} {}} C:/Users/im/Desktop/lab3/testBench2_freqSelector/ringOscillaotr.v {1 {vlog -work work -stats=none C:/Users/im/Desktop/lab3/testBench2_freqSelector/ringOscillaotr.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ringOsillotor
+-- Compiling module tbRingOsillotor
+
+Top level modules:
+	tbRingOsillotor
+
+} {} {}} C:/Users/im/Desktop/lab3/testBench2_freqSelector/waveForm_Generator.vo {1 {vlog -work work -stats=none C:/Users/im/Desktop/lab3/testBench2_freqSelector/waveForm_Generator.vo
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module waveForm_Generator
+
+Top level modules:
+	waveForm_Generator
+
+} {} {}}
